@@ -1,0 +1,32 @@
+body {
+    position: relative;
+}
+
+.box1 {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(102, 173, 255);
+    margin: 30px;
+}
+
+.box2, .box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.box2 {
+    background-color: rgb(255, 0, 255, 0.397);
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+
+.box3 {
+    background-color: rgb(160, 255, 173);
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
